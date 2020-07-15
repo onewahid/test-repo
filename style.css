@@ -1,0 +1,473 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: quicksand;
+}
+
+/*-----------------------------------------------------------Disini semua yg berkaitan dengan header---------------------------------------------------------*/
+
+header{
+	background: url(img/Shamsia-Banner.jpg);
+	width: 100%;
+	height: 700px;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.logo img{
+	width: 256px;
+	height: 58px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 60px;
+	transition: 1s;
+}
+
+.nav-bar{
+	width: 100%;
+	top: 0;
+	position: fixed;
+	/* box-sizing: border-box; */
+	height: 90px;
+	transition: 1.5s;
+	z-index: 1;
+}
+
+.nav-bar.black{
+	background: rgba(0,0,0, 0.9);
+	transition: 1.5s;
+}
+
+.list-menu {
+	float: right;
+	line-height: 90px;
+	margin-right: 30px;
+	transition: 1.5s;
+}
+
+.list-menu.white {
+	margin-right: 28%;
+	transition: 1.5s;
+}
+
+.logo img.hilang{
+	opacity: 0;
+	transition: 1s;
+}
+
+.list-menu li{
+	list-style: none;
+	display: inline;
+}
+
+li a{
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+	font-size: 15px;
+	padding: 32px 20px;
+	text-transform: uppercase;
+	font-weight: 1;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
+li a:hover{
+	color: white;
+}
+
+li a.bawah:hover{
+	border-bottom: 3px solid rgba(255,255,255,0.8);
+}
+
+.clear{
+	clear: both;
+}
+
+.tagline{
+	text-align: center;
+}
+
+.tagline h1{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 5px;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 210px;
+}
+
+.tagline p{
+	padding: 5px;
+	letter-spacing: 5px;
+}
+
+.tagline .btn a{
+	line-height: 50px;
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	letter-spacing: 1px;
+	height: 50px;
+	width: 180px;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.7);
+	margin-top: 14%;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+
+.tagline .btn a:hover{
+	color: white;
+	background: rgba(0, 0, 0, 0.9);
+	transition: 0.4s;
+	font-weight: lighter;
+}
+
+/*-------------------------------------------------------Disini semua yg berkaitan dengan main----------------------------------------------------------*/
+
+main{
+	width: 100%;
+	background-color: rgba(203, 197, 197, 0.4);
+}
+
+.about{
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.about h2{
+	margin: 30px auto;
+	/* border-bottom: 3px solid black; */
+	/* padding-bottom: 10px; */
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.about p {
+	text-align: justify;
+	font-size: 14px;
+	margin: 40px 0;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*-------------------------------------------------------Disini semua yg berkaitan dengan aside----------------------------------------------------------*/
+
+.aside-wrapper{
+	width: 100%;
+	background-color: #1499BF;
+}
+
+.aside_kiri_1 img{
+	height: 50%;
+	width: 50%;
+	float: left;
+	border-radius: 4px;
+}
+
+.aside_kanan_1 p{
+	float: left;
+	height: 50%;
+	width: 40%;
+	padding: 0 5%;
+	margin-top: 270px;
+	text-align: center;
+	color: #FFEFD5;
+	text-indent: 50px;
+	font-family: 'Montserrat', sans-serif;
+	opacity: 0;
+}
+
+.aside_kanan_1 p.muncul{
+	transition: 2s;
+	opacity: 1;
+}
+
+.aside_kiri_2 p{
+	float: left;
+	height: 50%;
+	width: 40%;
+	padding: 0 5%;
+	margin-top: 270px;
+	text-align: center;
+	color: #FFEFD5;
+	text-indent: 50px;
+	font-family: 'Montserrat', sans-serif;
+	opacity: 0;
+}
+
+.aside_kiri_2 p.muncul1{
+	opacity: 1;
+	transition: 2s;
+}
+
+.aside_kanan_2 img{
+	height: 50%;
+	width: 50%;
+	float: left;
+	border-radius: 4px;
+}
+
+.aside_kiri_3 img{
+	height: 50%;
+	width: 50%;
+	float: left;
+	border-radius: 4px;
+}
+
+.aside_kanan_3 p{
+	float: left;
+	height: 50%;
+	width: 40%;
+	padding: 0 5%;
+	margin-top: 270px;
+	text-align: center;
+	color: #FFEFD5;
+	text-indent: 50px;
+	font-family: 'Montserrat', sans-serif;
+	opacity: 0;
+}
+
+.aside_kanan_3 p.muncul2{
+	transition: 2s;
+	opacity: 1;
+}
+
+
+/*-------------------------------------------------------Disini semua yg berkaitan dengan footer----------------------------------------------------------*/
+
+footer{
+	width: 100%;
+	background-color: #162A45;
+	color: #B9B5B4;
+	/* #162A45; */
+}
+
+footer h2{
+	text-align: center;
+	margin: 0 auto;
+	/* border-bottom: 3px solid #B9B5B4; */
+	padding: 40px 0 10px 0;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+footer .kontak{
+	width: 90%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+footer .kontak h3{
+	margin-bottom: 20px;
+	letter-spacing: 5px;
+	/* font-weight: lighter; */
+}
+
+footer .kontak .alamat{
+	width: 20%;
+	float: left;
+	margin: 0 5%;
+}
+
+footer .kontak .open{
+	width: 20%;
+	float: left;
+	margin: 0 10%;
+}
+
+footer .kontak .kontak_person{
+	width: 20%;
+	float: left;
+	margin: 0 5%;
+}
+
+footer .kontak p{
+	padding: 5px 0;
+}
+
+footer .kontak .kontak_person .icon{
+	width: 60%;
+	margin: 0 auto;
+}
+
+footer .kontak .kontak_person .icon img{
+	width: 25px;
+	height: 25px;
+	float: left;
+	padding-right: 5px;
+}
+
+footer .kontak .kontak_person .icon p{
+	float: left;
+}
+
+.peta iframe{
+	margin: 50px 5% 4% 5%;
+	text-align: center;
+	width: 90%;
+	height: 480px;
+	/* background-color: black; */
+}
+
+.copyright{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+	border-top: 2px solid #B9B5B4;
+	/* margin-top: 3%; */
+	background-color: #B9B5B4;
+	color: #162A45;
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------------------------------- KATALOG PRODUK ---------------------------------------------------------------------------- */
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* header */
+.katalog{
+	background: url(img/Shamsia-Banner-Produk.jpg);
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+/* produk */
+.semua{
+	background-color: #E0E0E2; /* #162A45; */
+	/* #1B2336 */
+}
+
+.wrap-katalog-produk{
+	width: 99%;
+	margin: 0 auto;
+}
+
+.katalog-produk{
+	width: 26%;
+	float: left;
+	margin: 4.5% 3.5% 0 3.5%;
+}
+
+.perproduk{
+	width: 90%;
+	border-radius: 3px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.perproduk img{
+	width: 100%;
+	border-radius: 3px;
+}
+
+.perproduk p{
+	position: absolute;
+}
+
+.katalog-produk p{
+	color: #927218;
+	text-align: center;
+	margin-top: 3px;
+}
+
+.perproduk p{
+	position: absolute;
+	background-color: rgba(255,255,255,0.7);
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #927218;
+	bottom: -36px;
+	opacity: 0;
+	transition: 0.3s;
+	
+}
+
+.katalog-produk:hover .perproduk p{
+	opacity: 1;
+	bottom: 0px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.katalog-produk:hover{
+	cursor: pointer;
+}
+
+/*----------------------------------------------------------pesan produk------------------------------------------------------------------------------------*/
+
+.wrapper-rfq{
+	width: 100%;
+	background-color: #162A45;
+	padding-bottom: 1%;
+}
+
+.RFQ{
+	width: 50%;
+	margin: 6% auto 3% auto;
+	background-color: #162A45;
+}
+
+.RFQ h2{
+	padding-top: 6%;
+	margin: 20px auto 6% auto;
+	/* border-bottom: 3px solid #B9B5B4; */
+	/* padding-bottom: 10px; */
+	width: 250px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #B9B5B4;
+}
+
+.RFQ form input{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 3px;
+	text-align: center;
+	font-size: 15px;
+	/* letter-spacing: 1px; */
+	font-family: 'Montserrat', sans-serif;
+}
+
+.RFQ form textarea{
+	width: 100%;
+	height: 250px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 6px;
+}
+
+.RFQ form button{
+	width: 100%;
+	height: 30px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: white;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* footer */
+.katalog-footer{
+	/* margin-top: 4.5%; */
+}
